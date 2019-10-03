@@ -44,7 +44,7 @@ let SidePanel = props => {
         >
           <Menu.Item key="prodcuts">
             <Link href={`/dashboard?page=products`}>
-              <p className="sidebar-option">PRODUCTS</p>
+              <p className="sidebar-option">INSURANCE</p>
             </Link>
           </Menu.Item>
 
@@ -53,14 +53,14 @@ let SidePanel = props => {
               <p className="sidebar-option">TAXES</p>
             </Link>
           </Menu.Item>
-          <Menu.Item key="modifiers">
+          {/* <Menu.Item key="modifiers">
             <Link
 
               href={`/dashboard?page=modifiers`}
             >
               <p className="sidebar-option">MODIFIERS</p>
             </Link>
-          </Menu.Item>
+          </Menu.Item> */}
           <Menu.Item key="attributes">
             <Link
 
@@ -95,7 +95,7 @@ let SidePanel = props => {
         <Menu.Item key="transactions">
           <Link href={`/dashboard?page=transactions`}>
             <a>
-              <p className="sidebar-option">TRANSACTIONS</p>
+              <p className="sidebar-option">LICENSE</p>
             </a>
           </Link>
         </Menu.Item>

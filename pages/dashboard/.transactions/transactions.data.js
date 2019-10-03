@@ -5,22 +5,22 @@ import Modal from '../../../src/components/molecules/modalDetail'
 
 const transactionColumns = [
     {
-        title: "Transaction ID",
+        title: "LICENCE ID",
         dataIndex: "transactionID",
         key: "transactionID"
     },
-    {
-        title: "Transaction Type",
-        dataIndex: "type",
-        key: "type",
-        render: (type) => <p>{stockTag(type)}</p>
-    },
-    {
-        title: "Amount",
-        dataIndex: "amount",
-        key: "amount",
-        render: (amount) => <p>₹{amount}</p>
-    },
+    // {
+    //     title: "Transaction Type",
+    //     dataIndex: "type",
+    //     key: "type",
+    //     render: (type) => <p>{stockTag(type)}</p>
+    // },
+    // {
+    //     title: "Amount",
+    //     dataIndex: "amount",
+    //     key: "amount",
+    //     render: (amount) => <p>₹{amount}</p>
+    // },
     {
         title: "Date",
         dataIndex: "date",

@@ -31,12 +31,12 @@ class App extends React.Component {
       return (
         <div>
           <Tabs defaultActiveKey={"1"} onChange={this.callback}>
-            <TabPane tab="Product Categories" key="1">
+            <TabPane tab="Insurances" key="1">
               <Categories />
             </TabPane>
-            <TabPane tab="Products" key="2">
+            {/* <TabPane tab="Products" key="2">
               <Products />
-            </TabPane>
+            </TabPane> */}
           </Tabs>
         </div>
       )

@@ -29,9 +29,9 @@ class App extends Component {
             <TabPane tab="Attributes" key="2">
               <Attributes />
             </TabPane>
-            <TabPane tab="Attribute Value" key="3">
+            {/* <TabPane tab="Attribute Value" key="3">
               <AttributeValue />
-            </TabPane>
+            </TabPane> */}
           </Tabs>
         </div>
       )

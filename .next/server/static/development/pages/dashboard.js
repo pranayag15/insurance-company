@@ -3229,10 +3229,7 @@ function (_Component) {
         }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_attributeset__WEBPACK_IMPORTED_MODULE_9__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
           tab: "Attributes",
           key: "2"
-        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_attributes__WEBPACK_IMPORTED_MODULE_10__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
-          tab: "Attribute Value",
-          key: "3"
-        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_attributevalues__WEBPACK_IMPORTED_MODULE_11__["default"], null))));
+        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_attributes__WEBPACK_IMPORTED_MODULE_10__["default"], null))));
       }
     }
   }]);
@@ -7099,12 +7096,9 @@ function (_React$Component) {
           defaultActiveKey: "1",
           onChange: this.callback
         }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
-          tab: "Product Categories",
+          tab: "Insurances",
           key: "1"
-        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_productcategories__WEBPACK_IMPORTED_MODULE_10__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
-          tab: "Products",
-          key: "2"
-        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_products_index__WEBPACK_IMPORTED_MODULE_9__["default"], null))));
+        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_productcategories__WEBPACK_IMPORTED_MODULE_10__["default"], null))));
       } else {}
     }
   }]);
@@ -8886,10 +8880,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_taxCategory__WEBPACK_IMPORTED_MODULE_11__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
         tab: "Taxes",
         key: "2"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_taxes__WEBPACK_IMPORTED_MODULE_10__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TabPane, {
-        tab: "HSN",
-        key: "3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_hsn__WEBPACK_IMPORTED_MODULE_12__["default"], null))));
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_taxes__WEBPACK_IMPORTED_MODULE_10__["default"], null))));
     }
   }]);
 
@@ -9096,24 +9087,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var transactionColumns = [{
-  title: "Transaction ID",
+  title: "LICENCE ID",
   dataIndex: "transactionID",
   key: "transactionID"
-}, {
-  title: "Transaction Type",
-  dataIndex: "type",
-  key: "type",
-  render: function render(type) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, Object(_src_components_atoms_stockTag__WEBPACK_IMPORTED_MODULE_1__["default"])(type));
-  }
-}, {
-  title: "Amount",
-  dataIndex: "amount",
-  key: "amount",
-  render: function render(amount) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u20B9", amount);
-  }
-}, {
+}, // {
+//     title: "Transaction Type",
+//     dataIndex: "type",
+//     key: "type",
+//     render: (type) => <p>{stockTag(type)}</p>
+// },
+// {
+//     title: "Amount",
+//     dataIndex: "amount",
+//     key: "amount",
+//     render: (amount) => <p>₹{amount}</p>
+// },
+{
   title: "Date",
   dataIndex: "date",
   key: "date"
@@ -11556,7 +11545,7 @@ var ElemHeader = function ElemHeader(_ref) {
         color: "#FFFFFF",
         margin: 0
       }
-    }, title)));
+    }, "Insurance Details")));
   }
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12650,9 +12639,7 @@ var ItemCategory = function ItemCategory(props) {
     style: {
       overflow: "hidden"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_stockCadRow__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    cardData: props.cardData
-  }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_cascaderAndSearch__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_cascaderAndSearch__WEBPACK_IMPORTED_MODULE_6__["default"], {
     dataArray: props.cascaderData,
     buttonValue: "Quick Upload",
     onSearch: props.onSearch,
@@ -16285,19 +16272,13 @@ var SidePanel = function SidePanel(props) {
     href: "/dashboard?page=products"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
     className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash) + " " + "sidebar-option"
-  }, "PRODUCTS"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+  }, "INSURANCE"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
     key: "taxes"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "/dashboard?page=taxes"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
     className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash) + " " + "sidebar-option"
   }, "TAXES"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-    key: "modifiers"
-  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/dashboard?page=modifiers"
-  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-    className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash) + " " + "sidebar-option"
-  }, "MODIFIERS"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
     key: "attributes"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "/dashboard?page=attributes"
@@ -16333,7 +16314,7 @@ var SidePanel = function SidePanel(props) {
     className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash)
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
     className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash) + " " + "sidebar-option"
-  }, "TRANSACTIONS")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_divider__WEBPACK_IMPORTED_MODULE_1___default.a, null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SubMenu, {
+  }, "LICENSE")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_divider__WEBPACK_IMPORTED_MODULE_1___default.a, null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SubMenu, {
     key: "setting",
     title: react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
       className: "jsx-".concat(_styles__WEBPACK_IMPORTED_MODULE_7__["default"].__hash)

@@ -29,9 +29,9 @@ class App extends React.Component {
           <TabPane tab="Taxes" key="2">
             <Taxes />
           </TabPane>
-          <TabPane tab="HSN" key="3">
+          {/* <TabPane tab="HSN" key="3">
             <HSN />
-          </TabPane>
+          </TabPane> */}
         </Tabs>
       </div>
     )

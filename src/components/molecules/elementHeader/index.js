@@ -18,7 +18,7 @@ const ElemHeader = ({ logo, title }) => {
           <Logo color="#CCCCCC" />
         </div>
         <div style={{ textAlign: "center" }}>
-          <h1 style={{ color: "#FFFFFF", margin: 0 }}>{title}</h1>
+          <h1 style={{ color: "#FFFFFF", margin: 0 }}>Insurance Details</h1>
         </div>
       </div>
     )

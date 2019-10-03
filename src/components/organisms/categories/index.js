@@ -10,7 +10,7 @@ import { Row, Col } from "antd"
 let ItemCategory = props => {
   return (
     <div style={{ overflow: "hidden" }}>
-      <StockCard cardData={props.cardData} />
+      {/* <StockCard cardData={props.cardData} /> */}
       <br />
       <CascaderAndSearch
         dataArray={props.cascaderData}
