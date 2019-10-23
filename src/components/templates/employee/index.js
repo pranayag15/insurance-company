@@ -14,7 +14,7 @@ const Employee = props => {
       <Row type="flex">
         <Col>
           <h2>
-            <b>EMPLOYEES</b>
+            <b>OFFICES</b>
           </h2>
         </Col>
       </Row>

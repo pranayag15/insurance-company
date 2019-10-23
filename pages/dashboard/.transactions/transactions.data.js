@@ -5,7 +5,7 @@ import Modal from '../../../src/components/molecules/modalDetail'
 
 const transactionColumns = [
     {
-        title: "LICENCE ID",
+        title: "Policy renewable ID",
         dataIndex: "transactionID",
         key: "transactionID"
     },

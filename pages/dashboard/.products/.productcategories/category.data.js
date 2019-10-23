@@ -49,14 +49,18 @@ var cascaderData = [
 
 var categoryColumns = [
   {
-    title: "Category",
+    title: "Application ID",
     dataIndex: "name"
   },
   {
-    title: 'INVENTORY',
+    title: 'Agreement ID',
     dataIndex: 'inventory',
     key: 'inventory',
     render: inventory => (<span>{stockTag(inventory)}</span>)
+  },
+  {
+    title: "Customer   ID",
+    dataIndex: "name"
   },
   // {
   //   title: "Assign",

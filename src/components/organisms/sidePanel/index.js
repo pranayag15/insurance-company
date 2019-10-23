@@ -50,7 +50,7 @@ let SidePanel = props => {
 
           <Menu.Item key="taxes">
             <Link href={`/dashboard?page=taxes`}>
-              <p className="sidebar-option">TAXES</p>
+              <p className="sidebar-option">INCIDENT</p>
             </Link>
           </Menu.Item>
           {/* <Menu.Item key="modifiers">
@@ -66,22 +66,22 @@ let SidePanel = props => {
 
               href={`/dashboard?page=attributes`}
             >
-              <p className="sidebar-option">ATTRIBUTES</p>
+              <p className="sidebar-option">CLAIM</p>
             </Link>
           </Menu.Item>
-          <Menu.Item key="discounts">
+          {/* <Menu.Item key="discounts">
             <Link
 
               href={`/dashboard?page=discounts`}
             >
-              <p className="sidebar-option">DISCOUNTS</p>
+              <p className="sidebar-option">DEPARTMENT</p>
             </Link>
-          </Menu.Item>
+          </Menu.Item> */}
         </SubMenu>
         <Menu.Item key="employees">
           <Link href={`/dashboard?page=employees`}>
             <a>
-              <p className="sidebar-option">EMPLOYEES</p>
+              <p className="sidebar-option">OFFICE</p>
             </a>
           </Link>
         </Menu.Item>
@@ -95,7 +95,7 @@ let SidePanel = props => {
         <Menu.Item key="transactions">
           <Link href={`/dashboard?page=transactions`}>
             <a>
-              <p className="sidebar-option">LICENSE</p>
+              <p className="sidebar-option">POLICY RENEWABLE</p>
             </a>
           </Link>
         </Menu.Item>

@@ -9,11 +9,11 @@ import AssignItem from "../../../../src/components/organisms/forms/assignHsn"
 
 var taxesColumns = [
     {
-        title: 'Name',
+        title: 'Incident Inspector',
         dataIndex: 'name'
     },
     {
-        title: 'Tax Category',
+        title: 'Incident Type',
         dataIndex: '',
         render: object => {
             var categoryIndex = object.selectData.findIndex(id => id.value == object.taxCategory)
@@ -21,30 +21,35 @@ var taxesColumns = [
         }
     },
     {
-        title: 'Percentage',
+        title: 'Incident ID',
         dataIndex: 'percentage',
-        render: percentage => (<b>{percentage}%</b>)
+        render: percentage => (<b>{percentage}</b>)
     },
     {
-        title: "Assign",
-        dataIndex: "",
-        key: "assign",
-        render: object => {
-          // console.log(object.assign.taxCategoryData)
-          return (
-            <Model
-              form={AssignItem}
-              title="Assign Items"
-              buttonValue="Assign"
-              formData={object.assign}
-              assignedData={{}}
-              onSubmit={(data, cb) =>
-                object.assign.handleAssign(data, object.taxID, cb)
-              }
-            />
-          )
-        }
-      },
+        title: 'Incident Cost',
+        dataIndex: 'percentage',
+        render: percentage => (<b>{percentage}</b>)
+    },
+    // {
+    //     title: "Assign",
+    //     dataIndex: "",
+    //     key: "assign",
+    //     render: object => {
+    //       // console.log(object.assign.taxCategoryData)
+    //       return (
+    //         <Model
+    //           form={AssignItem}
+    //           title="Assign Items"
+    //           buttonValue="Assign Incident"
+    //           formData={object.assign}
+    //           assignedData={{}}
+    //           onSubmit={(data, cb) =>
+    //             object.assign.handleAssign(data, object.taxID, cb)
+    //           }
+    //         />
+    //       )
+    //     }
+    //   },
     {
         title:'Edit',
         key: 'edit',

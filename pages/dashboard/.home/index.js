@@ -220,7 +220,9 @@ class App extends Component {
     }
     return (
       <div style={{ padding: '30px' }}>
-        <Row gutter={16}>
+
+        <h1>HOME PAGE</h1>
+        {/* <Row gutter={16}>
           <Col span={8}>
             <Table pagination={{ position: "none" }} columns={columnstopselling} dataSource={this.state.grossSalesData} size="small" />
           </Col>
@@ -261,7 +263,7 @@ class App extends Component {
 
           </Col>
 
-        </Row>
+        </Row> */}
 
       </div>
     )

@@ -6,12 +6,17 @@ import createAttributeSet from "../../../../src/components/organisms/forms/creat
 
 const attributesColumns = [
     {
-        title: "Name",
+        title: "Claim Settlement ID ",
         dataIndex: "name",
         key: "name"
     },
     {
-        title: "Alias",
+        title: "Incident ID",
+        dataIndex: "alias",
+        key: "alias"
+    },
+    {
+        title: "Customer ID",
         dataIndex: "alias",
         key: "alias"
     },

@@ -6,12 +6,12 @@ import createTaxCategory from "../../../../src/components/organisms/forms/create
 
 const taxCategoryColumns = [
   {
-    title: "Name",
+    title: "Incident type",
     dataIndex: "name",
     key: "name"
   },
   {
-    title: "Tax Code",
+    title: "Incident ID",
     dataIndex: "taxCode",
     key: "taxCode"
   },

@@ -23,10 +23,10 @@ class App extends React.Component {
     return (
       <div>
         <Tabs defaultActiveKey={"1"} onChange={this.callback}>
-          <TabPane tab="Tax Categories" key="1">
+          <TabPane tab="Incident" key="1">
             <TaxCategory />
           </TabPane>
-          <TabPane tab="Taxes" key="2">
+          <TabPane tab="Incident Reports" key="2">
             <Taxes />
           </TabPane>
           {/* <TabPane tab="HSN" key="3">

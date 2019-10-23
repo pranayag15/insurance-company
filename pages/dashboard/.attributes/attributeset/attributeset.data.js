@@ -7,12 +7,22 @@ import AssignAttribute from "../../../../src/components/organisms/forms/assignAt
 
 const attributesetsColumns = [
     {
-        title: "Name",
+        title: "Claim id",
         dataIndex: "name",
         key: "name"
     },
     {
-        title: "Alias",
+        title: "CUST id",
+        dataIndex: "name",
+        key: "name"
+    },
+    {
+        title: "Claim id",
+        dataIndex: "name",
+        key: "name"
+    },
+    {
+        title: "Claim Amount",
         dataIndex: "alias",
         key: "alias"
     },

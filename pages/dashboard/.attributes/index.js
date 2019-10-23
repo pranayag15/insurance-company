@@ -23,10 +23,10 @@ class App extends Component {
       return (
         <div>
           <Tabs defaultActiveKey={"1"} onChange={this.callback}>
-            <TabPane tab="Attribute Set" key="1">
+            <TabPane tab="Claim" key="1">
               <AttributeSet />
             </TabPane>
-            <TabPane tab="Attributes" key="2">
+            <TabPane tab="Claim Settlement" key="2">
               <Attributes />
             </TabPane>
             {/* <TabPane tab="Attribute Value" key="3">

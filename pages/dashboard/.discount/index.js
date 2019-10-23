@@ -59,7 +59,7 @@ class App extends React.Component {
     if (true) {
       return (
         <div>
-          <h2><strong>Discounts</strong></h2>
+          <h2><strong>Department</strong></h2>
           <ProductTable  columns={discountColumns} data={discountColumnData} />
         </div>
       )

@@ -9,17 +9,17 @@ import createCategory from "../../../src/components/organisms/forms/addEmploy"
 
 var employeeColumns = [
   {
-    title: "Name",
+    title: "Office Name",
     dataIndex: "name",
     key: "name"
   },
   {
-    title: "EmployeeID",
+    title: "Department Name",
     dataIndex: "userName",
     key: "userName"
   },
   {
-    title: "Email",
+    title: "Contact information",
     dataIndex: "email",
     key: "email"
   },
@@ -28,20 +28,20 @@ var employeeColumns = [
     dataIndex: "phone",
     key: "phone"
   },
-  {
-    title: "Assign",
-    dataIndex: "assign",
-    key: "assign",
-    render: assign => (
-      <Model
-        form={AssignItem}
-        title="Assign Items"
-        buttonValue="Assign"
-        onSubmit={assign.onCreate}
-        formData={assign}
-      />
-    )
-  },
+  // {
+  //   title: "Assign",
+  //   dataIndex: "assign",
+  //   key: "assign",
+  //   render: assign => (
+  //     <Model
+  //       form={AssignItem}
+  //       title="Assign Items"
+  //       buttonValue="Assign"
+  //       onSubmit={assign.onCreate}
+  //       formData={assign}
+  //     />
+  //   )
+  // },
   // {
   //   title: "Permissions",
   //   dataIndex: "permissions",

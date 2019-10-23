@@ -9,25 +9,30 @@ import createCategory from "../../../src/components/organisms/forms/addEmploy"
 
 var discountColumns = [
   {
-    title: "Discount Code",
+    title: "Department Name",
     dataIndex: "code",
     key: "code"
   },
   {
-    title: "Type",
-    dataIndex: "type",
-    key: "type"
+    title: "Company Name",
+    dataIndex: "code",
+    key: "code"
   },
-  {
-    title: "Amount",
-    dataIndex: "amount",
-    key: "amount"
-  },
-  {
-    title: "Min Purchase Amount",
-    dataIndex: "minAmnt",
-    key: "minAmnt"
-  },
+  // {
+  //   title: "Type",
+  //   dataIndex: "type",
+  //   key: "type"
+  // },
+  // {
+  //   title: "Amount",
+  //   dataIndex: "amount",
+  //   key: "amount"
+  // },
+  // {
+  //   title: "Min Purchase Amount",
+  //   dataIndex: "minAmnt",
+  //   key: "minAmnt"
+  // },
 //   {
 //     title: "Assign",
 //     dataIndex: "assign",
